@@ -1,7 +1,6 @@
 ## 메서드 오버로딩, 오버라이딩
 
-
-오늘 컴퓨터 비전 수업을 듣다가 교수님께서 다음과 같은 언급을 하셨다. 여러가지 언급들도 많았지만 Functional Overloading, Functional Overriding관련 얘기를 하셨다. 그러고 나서 들어보니 결국 자바에서 사용하는 메서드 오버로딩, 메서드 오버라이딩이랑 거의 똑같은 개념이어서 다시 정리하게 되었다.
+오늘 수업을 듣다가 교수님께서 다음과 같은 언급을 하셨다. 여러가지 언급들도 많았지만 Functional Overloading, Functional Overriding관련 얘기를 하셨다. 그러고 나서 들어보니 결국 자바에서 사용하는 메서드 오버로딩, 메서드 오버라이딩이랑 거의 똑같은 개념이어서 다시 정리하게 되었다.
 
 ### 두 개의 가장 큰 차이는 상속이다!!
 
@@ -23,7 +22,7 @@ public class Parent {
 }
 
 public class Child extends Parent {
-    void foo(int a, int b, int c) {  // 이 친구는 오버로딩일까? 오버라이딩일까?
+    void foo(int a, int b, int c) {  // 이 친구는 오버로딩일까? 오버라이딩일까? 이 부분은 생각해보자.
     }
 }
 
@@ -45,19 +44,9 @@ public class Child extends Parent {
 
 
 
-그래서 너무 기본적인 내용이지만 확실하게 다시 되새기고 가면 좋을거 같다.
-
-
+**그래서 너무 기본적인 내용이지만 확실하게 다시 되새기고 가면 좋을거 같다.**
 
 ### 출처
 - https://www.tutorialspoint.com/Why-is-method-overloading-not-possible-by-changing-the-return-type-of-the-method-only-in-java
 - https://fordeveloper2.tistory.com/4952
 - 학교 수업(컴퓨터 비전)
-
-
-
-
-
-
-
-
