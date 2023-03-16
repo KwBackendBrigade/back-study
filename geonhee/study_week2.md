@@ -97,7 +97,7 @@ dependencies {
 - 데이터 형식 : 기본적으로 **Key : Value**로 지정된다.
 
 
->```javaScript
+>```java
 {
   "firstName": "Kwon",
   "lastName": "YoungJae",
@@ -110,6 +110,7 @@ dependencies {
 
 
 출처
->[https://developer.mozilla.org/ko/docs/Glossary/MVC](https://developer.mozilla.org/ko/docs/Glossary/MVC)
->[https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80]
+
+> [https://developer.mozilla.org/ko/docs/Glossary/MVC](https://developer.mozilla.org/ko/docs/Glossary/MVC)
+> [https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80]
 (https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
