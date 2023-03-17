@@ -1,6 +1,6 @@
 ### 매주 목표
 
-#### 2주차 목표
+#### 3/16까지 목표
 - [ ] 강제 형변환 메서드화
 - [x] BallStrikeJudge, PrintResult 수정
 - [ ] try catch
