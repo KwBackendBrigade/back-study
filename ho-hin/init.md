@@ -63,6 +63,6 @@
         
     
 
-
+출처:https://usefultoknow.tistory.com/entry/%EC%A0%88%EC%B0%A8%EC%A7%80%ED%96%A5Procedural-Programming-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5Object-Oriented-Programming-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EB%B0%8F-%EC%B0%A8%EC%9D%B4%EC%A0%90
     
         
