@@ -1,7 +1,8 @@
-### 매주 목표
+## 매주 목표
 
-#### 3/16까지 목표
-- [ ] 강제 형변환 메서드화
+### 3/16까지 목표
+##### 숫자 야구 게임
+- [ ] 강제 형변환 메소드화
 - [x] BallStrikeJudge, PrintResult 수정
 - [ ] try catch
 - [ ] 출력 상수들도 따로 클래스 만들어서
@@ -13,3 +14,12 @@
 
 우선 기능 명세서..? 라기보단 코드설명 까지 작성 완료.
 > https://github.com/YoongSeongHong/java-baseball/blob/SHBaseBall/docs/README.md
+
+
+### 3/21까지 목표
+##### 숫자 야구 게임
+- [x] 강제 형변환 메소드화
+- [ ] 출력 상수들도 따로 클래스 만들기
+
+##### 정리 노트
+- [x] 공통 질문이었던 SOLID, spring 의미 정리
