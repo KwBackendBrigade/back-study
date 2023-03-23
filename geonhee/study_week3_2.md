@@ -1,5 +1,5 @@
 # Spring Bean이란?
-- - - 
+
 > **Spring IoC 컨테이너가 관리하는 자바 객체**를 **빈(Bean)** 이라고 부른다.
 >>기존 자바에서는 클래스를 만들고 new()로 객체를 생성하여 사용하였다. Spring에서는 이렇게 직접 생성하는 것이 아닌 Spring에 의하여 관리 당하는 객체를 사용한다. **이렇게 Spring에서 관리하는 객체를 Spring Bean이라고 한다.**
 
@@ -9,7 +9,7 @@
 >>- 객체의 생성, 생명주기의 관리까지 모**든 객체에 대한 제어권이 바뀌었다는 것**을 의미
 >> - 이전까지 객체를 직접 생성하여 메소드 호출을 했다. **즉 사용자가 모든 작업을 제어하는 구조**였다.
      하지만 IoC가 적용된 경우, **객체의 생성을 특별한 관리 위임 주체에게 맡긴다.** 이 경우 **사용자는 객체를 직접 생성하지 않고, 객체의 생명주기를 컨트롤하는 주체는 다른 주체**가 된다.
-- - - 
+
 >>### IoC 컨테이너 :
 >>- **컨테이너** : 컨테이너는 보통 **객체의 생명주기를 관리, 생성된 인스턴스들에게 추가적인 기능을 제공**하도록 하는 것
 >>- Spring에서 컨테이너 역할을 해주는 것이 **Spring 컨테이너(IoC 컨테이너)**
@@ -21,7 +21,7 @@
 
 > Spring Bean을 Container에 등록하기 전 꼭 알아야 하는 개념이 **Component Scan**이다.
 > - _**Component Scan이란?**_
->> - Component scan은 S**pring Framework에서 자동으로 Bean을 검색하고 등록하는 기능**이다. 이 기능을 사용하면 개발자가 Bean을 일일이 등록하지 않고도, 자동으로 Bean을 검색하여 등록할 수 있다.
+>> - Component scan은 **Spring Framework에서 자동으로 Bean을 검색하고 등록하는 기능**이다. 이 기능을 사용하면 개발자가 Bean을 일일이 등록하지 않고도, 자동으로 Bean을 검색하여 등록할 수 있다.
 >> - **즉 Spring이 Spring Bean으로 등록될 준비가 된 클래스들을 스캔하여 Bean으로 등록해주는 과정을 말한다.**
 > - _**@Component**_ Annotation(어노테이션)이 붙어 있는 클래스들은 자동적으로 컴포넌트 스캔의 대상이 된다.
 
@@ -36,15 +36,14 @@
 > @Controller   
 > @Service   
 > @Repository
->
+
 
 - _잠깐 ! 위에서 Component Scan에 등록하려면 @Component Annotation이 있어야 하는데 위에 Annotation들은 어떻게 등록하는 걸까?_
 > 사실 **위에 있는 Annotation들의 속을 파보면 @Component가 내장**되어 있다. 다만 종류에 따라 겉을 다르게 만들었다고 보면 될 것 같다 !
 
-> - 다시 본론으로 돌아와서 위 3개의 의존 관계는 다음과 같다.
-    **Controller -> Service -> Repository**
-    _예시를 코드로 나타내면_
-- - - 
+다시 본론으로 돌아와서 위 3개의 의존 관계는 다음과 같다.   
+   **Controller -> Service -> Repository**   
+   _예시를 코드로 나타내면_
 >
 >```java
 >@Controller // Controller Annotation 등록
@@ -117,3 +116,6 @@ _위 방법을 적용한 그림은 다음과 같다._
 - - - 
 
 출처 : https://melonicedlatte.com/2021/07/11/232800.html , chatgpt, 영한님 spring 강의, 머리속
+
+
+
