@@ -57,7 +57,7 @@
 >	}
 >}
 >```
->- - - 
+>
 >
 >```java
 >@Service // Service Annotation 등록
@@ -71,7 +71,7 @@
 >	}
 >}
 >```
->- - - 
+> 
 >
 >```java
 >@Repository //Repository Annotation 등록
@@ -79,6 +79,9 @@
 >```
 >- 생성자에 **_@Autowired_** 가 있으면 **스프링이 연관된 객체를 Spring 컨테이너에서 찾아서 넣어준다.** **이렇게 의존관계를 외부에서 넣어주는 것을 _DI(Dependency Injection), 의존성 주입_** 이라고 한다.
 >- 이전 테스트에서는 개발자가 직접 주입했고, 여기서는 **@Autowired**에 의해 **스프링이 주입**해준다.
+
+- - - 
+
 
 >####  2. Bean Configuration File에 직접 Bean 등록하는 방법
 >- _자바 코드로 직접 등록하는 방법 :_
