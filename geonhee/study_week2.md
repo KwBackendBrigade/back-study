@@ -98,17 +98,15 @@ dependencies {
 
 
 > ```java
-{
-  "firstName": "Kwon",
-  "lastName": "YoungJae",
-  "email": "kyoje11@gmail.com"
-}
-```
+>{
+>  "firstName": "Kwon",
+>  "lastName": "YoungJae",
+>  "email": "kyoje11@gmail.com"
+>}
+>```
 
 
 - - - 
-
-
 
 출처
 
