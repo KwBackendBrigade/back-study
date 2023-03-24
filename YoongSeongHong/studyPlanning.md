@@ -29,12 +29,12 @@
 ### 3/28까지 목표
 ##### 숫자 야구 게임
 - [x] 패키지 나누기
-- [ ] 캡슐화
+- [x] 캡슐화
 - [x] 플래그 없애기
 - [x] 단일 객체화
 - [ ] 기능 명세서 재작성
-- [ ] 예외처리 합치기, 메시지 남기기, static 없애기
-- [ ] PrintingResult, PrintedSentences 이름 고치기
+- [x] 예외처리 합치기, 메시지 남기기, static 없애기
+- [x] PrintingResult, PrintedSentences 이름 고치기
 - [ ] 테스트코드
 
 ##### 정리 노트
