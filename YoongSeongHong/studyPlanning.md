@@ -33,9 +33,12 @@
 - [x] 플래그 없애기
 - [x] 단일 객체화
 - [ ] 기능 명세서 재작성
+- [x] 예외처리 합치기, 메시지 남기기, static 없애기
+- [x] PrintingResult, PrintedSentences 이름 고치기
+- [ ] 테스트코드
 
 ##### 정리 노트
-- [ ] 자바 컴파일러 작동 원리?
+- [x] 자바 컴파일러 작동 원리?
 - [ ] JVM, Garbage Collector
 
 ##### 강의
