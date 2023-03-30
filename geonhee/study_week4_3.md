@@ -40,7 +40,7 @@ int[] arr = {1,2,3,4,5};>Arrays.stream(arr).forEach(i -> System.out.println(i));
     - 이를 **지연 연산(lazy evalutation)이라 한다.**
 
 ### **중간연산**
-- 대표적으로 **filter(), map()**이 있다.
+- 대표적으로 **filter(), map()** 이 있다.
 >### filter()
 > filter()는 조건을 넣고 조건에 맞는 참인 경우만 추출하는 함수이다.     
 > 예시로 문자열의 길이가 5 이상인 경우만 출력하는 코드는 다음과 같다.
