@@ -49,9 +49,9 @@
 
 ### 4/4 까지 목표
 ##### 숫자 야구 게임
-- [ ] list, arraylist 차이?
+- [x] list, arraylist 차이?
 
 ##### 정리 노트
 - [ ] 데코레이터, 어노테이션
 - [ ] JSON
-- [ ] 깃허브 pull, push 할 때 원리, 결과
+- [x] 깃허브 pull, push 할 때 원리, 결과
