@@ -14,7 +14,7 @@ int arr[] = new int[10];
 ```java
 Arraylist<Type> al = new ArrayList<Type>();
 ```
-- array와 list의 차이를 설명하면서 generic을 언급하지 않을 수 없는데 array에선 generic을 사용하지 않고, arraylist에선 사용 -> safe의 문제?
+- array와 list의 차이를 설명하면서 generic을 언급하지 않을 수 없음 -> type safe의 문제에 있어서 차이가 존재
 - 기본형 데이터가 바로 사용되냐 안되냐의 차이도 존재, array는 Primitive data를 바로 사용하지만, list에선 그러지 않음(auto boxing unboxing wrapper class등)
 </br>
 
