@@ -2,9 +2,9 @@
 
 ```java
  String name = "lxxjn0" // 문자열 리터럴
- String name1 = "lxxjn0"; // new 로 생성
- String name2 = new String("lxxjn0"); // 문자열 리터럴
- String name3 = new String("lxxjn0"); // new 로 생성
+ String name1 = "lxxjn0"; 
+ String name2 = new String("lxxjn0"); // new로 생성
+ String name3 = new String("lxxjn0"); 
 ```
 
 위 2개의 코드만 보면 둘 다 `lxxjn0`라는 문자열을 만든 것이다. 그렇지만 표현 방법에서부터 다르게 된다면 분명히 뭔가가 다를 거다.
