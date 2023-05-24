@@ -207,7 +207,11 @@ JPA는 만능이 아니다.
 
 이 둘을 적절히 혼용하여 사용한다면 안정적인 서비스를 제공하도로 하자!!
 
+---
 
+출처
+- https://dbjh.tistory.com/77
+- https://ultrakain.gitbooks.io/jpa/content/chapter1/chapter1.3.html
 
 [//]: # (- SQL은 관계형 데이터베이스 관리 시스템의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어.)
 
